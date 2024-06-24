@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+
+* {
+    -webkit-user-drag: none;
+    -ms-touch-select: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Tajawal, sans-serif;
+    font-size: 20px;
+    background-color: #f7f7f7;
+    color: #333333;
+}
+
+input {
+    font-family: Tajawal, sans-serif;
+}
+
+.navbar {
+    background-color: #3d5a80;
+    border-bottom: 2px solid #98c1d9;
+}
+
+.navbar-brand {
+    margin-right: 20px;
+    color: #98c1d9;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #98c1d9;
+    background-color: #293241;
+    border-radius: 7px;
+}
+
+.nav-link i {
+    color: #98c1d9;
+}
+
+header {
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 180px 0;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 64px;
+    color: #98c1d9;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+header span {
+    font-size: 24px;
+}
+
+header div {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#whats, #tel {
+    position: fixed;
+    top: 150px;
+    left: 10px;
+    z-index: 1000;
+}
+
+#tel {
+    top: 280px;
+}
+
+#whats img, #tel img {
+    width: 70px;
+    height: 70px;
+}
+
+.site {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 24px;
+    color: #3d5a80;
+}
+
+.site span {
+    padding: 10px 20px;
+    border: 2px solid #98c1d9;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.serv {
+    text-align: center;
+    margin: 30px 0;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    border: 2px solid #98c1d9;
+    border-radius: 15px;
+}
+
+.serv i {
+    font-size: 64px;
+    color: #98c1d9;
+    margin-bottom: 20px;
+}
+
+.serv h4 {
+    font-size: 28px;
+    color: #3d5a80;
+    margin-bottom: 20px;
+}
+
+.serv span {
+    font-size: 18px;
+    color: #666666;
+}
+
+.des {
+    text-align: center;
+    margin: 30px 0;
+    padding: 30px;
+    background-color: #3d5a80;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.des h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.des p {
+    font-size: 20px;
+}
+
+.ourworks, .about {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.ourworks h2, .about h2 {
+    font-size: 32px;
+    color: #3d5a80;
+    margin-bottom: 20px;
+}
+
+.ourworks p, .about p {
+    font-size: 18px;
+    color: #666666;
+}
+
+.ourworks img {
+  margin: 5px;
+  width: 506px;
+  height: 572px;
+  border: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #3d5a80;
+    color: #ffffff;
+    padding: 20px;
+    border-top: 2px solid #98c1d9;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media Queries for responsive design */
+
+@media screen and (max-width: 728px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Tajawal;
+    font-size: 14px;
+  }
+  
+  input {
+    font-family: Tajawal;
+  }
+
+  header {
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    padding-top: 120px;
+    color: #ffffff;
+  }
+
+  header h1 {
+      font-size: 44px;
+      color: #98c1d9;
+      margin: 20px 0;
+      font-weight: bold;
+  }
+
+  header span {
+      font-size: 16px;
+  }
+
+  header div {
+      margin: auto;
+      width: 90%;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 15px;
+  }
+
+  #whats, #tel {
+    position: fixed;
+    top: 150px;
+    left: 10px;
+    z-index: 1000;
+  }
+
+  #tel {
+      top: 220px;
+  }
+
+  #whats img, #tel img {
+      width: 55px;
+      height: 55px;
+  }
+
+  .site {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 14px;
+    color: #3d5a80;
+  }
+
+  .site span {
+      padding: 10px 20px;
+      border: 2px solid #98c1d9;
+      border-radius: 20px;
+      background-color: #ffffff;
+  }
+
+  .serv {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    border: 2px solid #98c1d9;
+    border-radius: 15px;
+  }
+
+  .serv i {
+      font-size: 64px;
+      color: #98c1d9;
+      margin-bottom: 20px;
+  }
+
+  .serv h4 {
+      font-size: 28px;
+      color: #3d5a80;
+      margin-bottom: 20px;
+  }
+
+  .serv span {
+      font-size: 18px;
+      color: #666666;
+  }
+
+  .des {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #3d5a80;
+    color: #ffffff;
+    border-radius: 15px;
+  }
+
+  .des h2 {
+      font-size: 18px;
+      margin-bottom: 20px;
+      font-weight: bold;
+  }
+
+  .des p {
+      font-size: 16px;
+  }
+
+  .ourworks img {
+    margin: 5px;
+    width: 253px;
+    height: 286px;
+    border: 0;
+  }
+}
